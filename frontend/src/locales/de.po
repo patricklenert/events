@@ -1589,7 +1589,7 @@ msgstr "Passwort vergessen?"
 #: src/components/common/TicketsTable/SortableTicket/index.tsx:102
 #: src/components/routes/ticket-widget/SelectTickets/Prices/Tiered/index.tsx:54
 msgid "Free"
-msgstr "Frei"
+msgstr "Kostenlos"
 
 #: src/components/forms/TicketForm/index.tsx:133
 msgid "Free Ticket"
@@ -2942,7 +2942,7 @@ msgstr "Einstellungen"
 
 #: src/components/common/ShareIcon/index.tsx:53
 msgid "Share"
-msgstr "Aktie"
+msgstr "Teilen"
 
 #: src/components/forms/TicketForm/index.tsx:289
 msgid "Show"

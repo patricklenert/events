@@ -75,8 +75,20 @@ export const App: FC<
                             "#392562",
                             "#332158",
                         ],
+                        blue: [
+                            "#0e49eb",
+                            "#3e6ef0",
+                            "#2162d1",
+                            "#1479d9",
+                            "#0462ba",
+                            "#4295f5",
+                            "#1967c2",
+                            "#148dde",
+                            "#0a88f0",
+                            "#026dd1",
+                        ],
                     },
-                    primaryColor: "purple",
+                    primaryColor: "blue",
                     fontFamily: "'Varela Round', sans-serif",
                 }}
             >
