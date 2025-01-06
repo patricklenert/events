@@ -21,7 +21,7 @@ services:
       - FILESYSTEM_PUBLIC_DISK=${FILESYSTEM_PUBLIC_DISK}
       - FILESYSTEM_PRIVATE_DISK=${FILESYSTEM_PRIVATE_DISK}
       - APP_CDN_URL=${APP_CDN_URL}
-      - DATABASE_URL=postgresql://postgres:secret@postgres:5432/hi-events
+      - DATABASE_URL=postgresql://postgres:secret@hi-events-postgres:5432/hi-events
 
     depends_on:
       postgres:
@@ -29,7 +29,7 @@ services:
 
   postgres:
     image: postgres:latest
-    container_name: postgres
+    container_name: hi-events-postgres
     healthcheck:
       test: [ "CMD-SHELL", "pg_isready -U postgres" ]
       interval: 10s
